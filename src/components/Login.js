@@ -140,25 +140,26 @@ margin-top: 100px;
 width: 408px;
  @media (max-width: 768px) {
     margin-top: 20px;
+    margin : auto
 }
 `;
 const Google = styled.button`
-display: flex;
-justify-content: center;
-background-color: #ffff;
-align-items: center;
-height: 55px;
-width: 100%;
-border-radius: 28px;
-vertical-align: middle;
-box-shadow: darkgoldenrod;
-z-index : 0;
-transition-duration: 167ms;
-font-size: 20px ;
-color: rgba(0,0,0,0.6);
-&:hover{
-    background-color: rgba(207,207,207,0.25);
-    color: rgba(0,0,0,0.75);
-}
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+  align-items: center;
+  height: 55px;
+  width: 100%;
+  border-radius: 28px;
+  vertical-align: middle;
+  box-shadow: darkgoldenrod;
+  z-index: 0;
+  transition-duration: 167ms;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  &:hover {
+    background-color: rgba(207, 207, 207, 0.25);
+    color: rgba(0, 0, 0, 0.75);
+  }
 `;
 export default Login;
