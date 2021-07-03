@@ -7,6 +7,7 @@
     cursor: pointer;
 }
 
+/* use !important to override material-ui styles */
 .headerOption__icon{
     object-fit: contain;
     height: 25px !important;

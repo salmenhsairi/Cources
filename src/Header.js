@@ -13,7 +13,7 @@ export default function Header() {
       <div className="header">
         <div className="header__left">
           <img
-            src="https://image.flaticon.com/icons/png/512/174/174857.png"
+            src="https://github.com/salmenhsairi/Cources/blob/master/public/images/linkedin.png?raw=true"
             alt="logo"
           />
           <div className="header__search">
