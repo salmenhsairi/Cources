@@ -9,7 +9,7 @@ import Login from "./Login";
 import { auth } from "./firebase";
 import { useDispatch } from "react-redux";
 import { login, logout } from "./features/userSlice";
-
+import Widgets from "./Wigets";
 //dispatch -> action -> payload
 
 function App() {
@@ -43,7 +43,8 @@ function App() {
       ) : (
         <div className="app__body">
           <SideBar />
-          <Feed />
+            <Feed />
+            <Widgets/>
         </div>
       )}
     </div>
